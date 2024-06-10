@@ -81,7 +81,7 @@ public class Frog : MonoBehaviour
                 positions.Add(controlTonguePositions[i]);
             }
             lastGrape = ControlNode.GetLastCell().GetGrape();
-            lastGrape.GoToFrog(positions, tongueSpeed);
+            lastGrape.GoToFrog(positions, tongueSpeed + 0.25f);
             MoveStartedGrapeCount++;
 
             while (CollectedGrapes.Count > 1)
@@ -100,7 +100,7 @@ public class Frog : MonoBehaviour
                         positions.Add(controlTonguePositions[i]);
                     }
                     lastGrape = ControlNode.GetLastCell().GetGrape();
-                    lastGrape.GoToFrog(positions, tongueSpeed);
+                    lastGrape.GoToFrog(positions, tongueSpeed + 0.25f);
                     MoveStartedGrapeCount++;
                     if (CollectedGrapes.Count == MoveStartedGrapeCount)
                     {
