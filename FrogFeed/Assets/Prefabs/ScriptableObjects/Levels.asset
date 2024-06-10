@@ -1,0 +1,725 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105d9c96b9207d04992cabd890b7052b, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  LevelDatas:
+  - MaxMoveCount: 3
+    GridCount: 3
+    Nodes:
+    - CellProperties:
+      - Type: 2
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 3
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 2
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+  - MaxMoveCount: 15
+    GridCount: 4
+    Nodes:
+    - CellProperties:
+      - Type: 2
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 1
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 3
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 2
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 3
+        Direction: 2
+        Active: 1
+    - CellProperties: []
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 2
+        Direction: 3
+        Active: 1
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 0
+        Direction: 2
+        Active: 1
+  - MaxMoveCount: 25
+    GridCount: 5
+    Nodes:
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 0
+      - Type: 1
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 2
+        Direction: 0
+        Active: 0
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 0
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 1
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 2
+        Direction: 1
+        Active: 0
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 0
+      - Type: 2
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 0
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 0
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 0
+      - Type: 1
+        Color: 0
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 3
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 0
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 0
+        Direction: 1
+        Active: 0
+      - Type: 2
+        Color: 1
+        Direction: 2
+        Active: 0
+      - Type: 2
+        Color: 2
+        Direction: 3
+        Active: 0
+      - Type: 2
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 3
+        Direction: 1
+        Active: 0
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 2
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 0
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 2
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 3
+        Active: 1
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 0
+      - Type: 2
+        Color: 3
+        Direction: 3
+        Active: 1
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 2
+        Active: 1
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 1
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 3
+        Direction: 2
+        Active: 0
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+  - MaxMoveCount: 10
+    GridCount: 6
+    Nodes:
+    - CellProperties:
+      - Type: 2
+        Color: 0
+        Direction: 1
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 2
+        Direction: 2
+        Active: 1
+      - Type: 2
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 3
+        Direction: 1
+        Active: 1
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 3
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 1
+        Active: 1
+      - Type: 1
+        Color: 2
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 2
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 3
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 3
+        Active: 1
+      - Type: 2
+        Color: 3
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 1
+        Active: 1
+      - Type: 1
+        Color: 2
+        Direction: 3
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 2
+        Direction: 2
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 1
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 3
+        Direction: 1
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 1
+        Active: 1
+      - Type: 1
+        Color: 1
+        Direction: 3
+        Active: 1
+      - Type: 1
+        Color: 2
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 2
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 3
+        Direction: 1
+        Active: 1
+      - Type: 2
+        Color: 1
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 1
+        Color: 3
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 1
+        Active: 1
+      - Type: 1
+        Color: 2
+        Direction: 3
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 2
+        Direction: 2
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 2
+        Color: 1
+        Direction: 0
+        Active: 1
+      - Type: 3
+        Color: 3
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 1
+        Direction: 3
+        Active: 1
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 2
+        Direction: 0
+        Active: 1
+    - CellProperties:
+      - Type: 1
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 2
+        Direction: 2
+        Active: 1
+    - CellProperties:
+      - Type: 3
+        Color: 0
+        Direction: 0
+        Active: 1
+      - Type: 2
+        Color: 2
+        Direction: 3
+        Active: 1
